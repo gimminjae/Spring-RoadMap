@@ -1,13 +1,13 @@
-package com.sevlet;
+package com.servlet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SevletApplication {
+public class ServletApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SevletApplication.class, args);
+		SpringApplication.run(ServletApplication.class, args);
 	}
 
 }
