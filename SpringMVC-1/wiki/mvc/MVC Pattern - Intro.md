@@ -1,6 +1,6 @@
 # MVC Pattern - Intro
 ### Too Many Roles
-If One Servlet or JSP plays a role to work business logic and view rendering, it's too many.
+If One Servlet or JSP plays a role to work business logic and render view, it's too many.
 As a result, it will cause difficult maintenance.
 When modifying business logic, there is also a UI code, and when modifying the UI, there is also a business logic.
 it's so bad.
