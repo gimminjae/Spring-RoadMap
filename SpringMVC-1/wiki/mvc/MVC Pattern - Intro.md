@@ -25,8 +25,8 @@ MVC is that divides one servlet or JSP into controller and view.
 > - create HTML
 
 ### Before View 
-![스크린샷 2023-05-13 오전 1.33.31.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fbm%2Fqyr7vjg51vb_41t7vjsz3bqc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_hAEesN%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-13%20%EC%98%A4%EC%A0%84%201.33.31.png)
+<img width="246" alt="스크린샷 2023-05-13 오전 1 42 41" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/f9199dc5-c50c-4f3f-b9cd-6c2935ef29dc">
 ### MVC 1
-![스크린샷 2023-05-13 오전 1.36.58.png](..%2F..%2F..%2F..%2F..%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-13%20%EC%98%A4%EC%A0%84%201.36.58.png)
+<img width="318" alt="스크린샷 2023-05-13 오전 1 36 58" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/79a7246c-dcff-4a6f-80aa-383682b3d4f2">
 ### MVC 2
-![스크린샷 2023-05-13 오전 1.39.20.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fbm%2Fqyr7vjg51vb_41t7vjsz3bqc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_BSU7ac%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-13%20%EC%98%A4%EC%A0%84%201.39.20.png)
+<img width="492" alt="스크린샷 2023-05-13 오전 1 41 37" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/196065e8-54b9-49a7-9517-983d2e75baa7">
