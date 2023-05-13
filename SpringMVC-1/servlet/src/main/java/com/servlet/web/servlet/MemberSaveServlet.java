@@ -40,7 +40,7 @@ public class MemberSaveServlet extends HttpServlet {
                 <li>username="%s"</li>
                 <li>age="%s"</li>
                 </ul>
-                <a href="/index.html">메인</a>
+                <a href="/index.html">main</a>
                 </body>
                 </html>
                 """.formatted(member.getId(), member.getUsername(), member.getAge()));
