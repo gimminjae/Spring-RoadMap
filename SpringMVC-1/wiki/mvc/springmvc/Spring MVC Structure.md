@@ -20,6 +20,8 @@ Spring MVC is a structure similar to FrontController-v5 I made.
 
 ## DispatcherServlet Structure
 ### DispatcherServlet Diagram
+<img width="1068" alt="스크린샷 2023-05-20 오전 1 24 50" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/04edbd58-222e-4fbe-a12b-5ef857719c75">
+
 - DispatcherServlet extends HttpServlet and works as Servlet
 - Spring Boot registers DispatcherServlet as Servlet, mapping all path
 
