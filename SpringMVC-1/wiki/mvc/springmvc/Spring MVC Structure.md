@@ -2,12 +2,12 @@
 Spring MVC is a structure similar to FrontController-v5 I made.
 ## MVC I made vs Spring MVC
 ### MVC Framework I made (FrontController - v5)
-image
+<img width="666" alt="스크린샷 2023-05-19 오후 4 49 34" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/060668d6-4533-41c0-8ad6-7ca5b3079afe">
 
 ### Spring MVC
-image
+<img width="679" alt="스크린샷 2023-05-20 오전 1 18 04" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/7c213371-5a90-42b6-880f-38195d41c1b6">
 
-Order of Operation
+### Order of Operation
 1. Select Handler : Select the handler (controller) mapped to the request URL via handler mapping.
 2. Select the handler adapter: Select the handler adapter that can run the handler.
 3. Run the handler adapter: Run the handler adapter.
