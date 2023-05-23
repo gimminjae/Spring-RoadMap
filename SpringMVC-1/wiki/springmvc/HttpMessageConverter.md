@@ -1,6 +1,7 @@
 # Http Message Converter
 ### @ResponseBody Usage Principle
-image
+<img width="619" alt="스크린샷 2023-05-23 오후 10 34 44" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/a3ffd2ac-38a4-442a-b6cf-5d5daed67004">
+
 
 - Usage Of `@ResponseBody`
 - Return directly content at body of Http.
