@@ -2,7 +2,7 @@
 ## Q. Where is the HTTP message converter used in the spring MVC?
 
 ### Spring MVC Structure
-image
+<img width="742" alt="스크린샷 2023-05-23 오후 10 57 01" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/073b5da9-82f6-4f16-a113-e6f597897912">
 
 > Answer is RequestMappingHandlerAdapter!!
 
