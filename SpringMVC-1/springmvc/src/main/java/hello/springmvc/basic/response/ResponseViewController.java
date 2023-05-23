@@ -31,4 +31,11 @@ public class ResponseViewController {
     public void responseViewV3(Model model) {
         model.addAttribute("data", "hello!!!");
     }
+
+    /**
+     * Default Setting Value
+     * If necessary, you can change.
+     * spring.thymeleaf.prefix=classpath:/templates/
+     * spring.thymeleaf.suffix=.html
+     */
 }
