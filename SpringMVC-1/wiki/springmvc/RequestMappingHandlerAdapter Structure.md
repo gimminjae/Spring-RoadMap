@@ -2,12 +2,13 @@
 ## Q. Where is the HTTP message converter used in the spring MVC?
 
 ### Spring MVC Structure
-<img width="742" alt="스크린샷 2023-05-23 오후 10 57 01" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/073b5da9-82f6-4f16-a113-e6f597897912">
+<img width="679" alt="스크린샷 2023-05-20 오전 1 18 04" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/b0ac24e2-33d8-426a-ac6b-8a032098b053">
+
 
 > Answer is RequestMappingHandlerAdapter!!
 
 ### How RequestMappingHandlerAdapter work
-image
+<img width="742" alt="스크린샷 2023-05-23 오후 10 57 01" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/073b5da9-82f6-4f16-a113-e6f597897912">
 
 ### ArgumentResolver(actually is HandlerMethodArgumentResolver)
 The Controller based on Annotation can use a wide variety of parameters,
