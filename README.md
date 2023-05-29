@@ -23,3 +23,22 @@ I think that English is inseparable from developers in any field.
 And I also wrote everything in English because I am aiming to get a job abroad (Germany, the United States, etc.) as a developer.
 
 Everyone who watches these contents should be aware of and take a look at them, and I would appreciate it if you could point out and let me know if you see any deficiencies in English grammar or expression.
+
+## Spring MVC Part 1
+이 강의는 자바 백엔드 기술의 유래와 기능을 발전단계별로 배우고 스프링 MVC의 내부 구조와 원리를 파악할 수 있도록 구성되어 있습니다.
+
+내가 배우고 경험한 것
+- 자바/스프링 백엔드 기술의 발전단계
+- 스프링 MVC의 내부 로직 및 구조
+- 흔하게 사용해 왔던 @Controller, @RequestParam, @ResponseBody 등 편리한 어노테이션의 원리 및 내부 구조
+- 스프링 MVC를 단계별로 직접 개발
+- 서블릿, JSP, MVC 패턴
+
+This course is designed to learn the origin and function of Java backend technology at each stage of development and to understand the internal structure and principles of spring MVC.
+
+What I learned and experienced
+- Advances in Java/Spring Backend Technology
+- Internal Structure and Principles of Spring MVC
+- Internal Structure and Principles of convenient Annotation such as @Controller, @RequestParam, @ResponseBody...
+- Develop Spring MVC step by step
+- Servlet, JSP, MVC Pattern
