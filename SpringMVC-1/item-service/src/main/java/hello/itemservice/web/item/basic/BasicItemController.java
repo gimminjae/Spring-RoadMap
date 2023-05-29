@@ -42,6 +42,12 @@ public class BasicItemController {
         model.addAttribute("item", item); //When use @ModelAttribute, this can be omitted. Automatically, object(@ModelAttribute) delivered at Model.
         return "basic/item";
     }
+    @GetMapping("/{itemId}/edit")
+    public String editForm(@PathVariable Long itemId, Model model) {
+        Item item = itemRepository.findById(itemId);
+        model.addAttribute("item", item);
+        return "basic/editForm";
+    }
     /**
      * Add Data For Test
      */
