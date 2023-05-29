@@ -31,7 +31,7 @@ public class BasicItemController {
     public String addForm() {
         return "basic/addForm";
     }
-    @PostMapping("/add")
+    @PostMapping("/add") //@ModelAttribute annotation can be omitted.
     public String addItemV1(@ModelAttribute Item item, //@RequestParam String itemName, @RequestParam int price, @RequestParam Integer quantity,
                             Model model) {
 //        Item item = new Item();
@@ -39,7 +39,7 @@ public class BasicItemController {
 //        item.setPrice(price);
 //        item.setQuantity(quantity);
         itemRepository.save(item);
-        model.addAttribute("item", item);
+        model.addAttribute("item", item); //When use @ModelAttribute, this can be omitted. Automatically, object(@ModelAttribute) delivered at Model.
         return "basic/item";
     }
     /**
