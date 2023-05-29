@@ -40,7 +40,8 @@ public class BasicItemController {
 //        item.setQuantity(quantity);
         itemRepository.save(item);
         model.addAttribute("item", item); //When use @ModelAttribute, this can be omitted. Automatically, object(@ModelAttribute) delivered at Model.
-        return "basic/item";
+//        return "basic/item";
+        return "redirect:/basic/items/" + item.getId(); //redirect url, not return form(html)
     }
     @GetMapping("/{itemId}/edit")
     public String editForm(@PathVariable Long itemId, Model model) {
