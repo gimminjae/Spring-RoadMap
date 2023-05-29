@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
 
@@ -33,6 +34,7 @@ public class BasicItemController {
     }
     @PostMapping("/add") //@ModelAttribute annotation can be omitted.
     public String addItemV1(@ModelAttribute Item item, //@RequestParam String itemName, @RequestParam int price, @RequestParam Integer quantity,
+                            RedirectAttributes redirectAttributes, //RedirectAttributes can add attribute in redirected page.
                             Model model) {
 //        Item item = new Item();
 //        item.setItemName(itemName);
@@ -40,6 +42,8 @@ public class BasicItemController {
 //        item.setQuantity(quantity);
         itemRepository.save(item);
         model.addAttribute("item", item); //When use @ModelAttribute, this can be omitted. Automatically, object(@ModelAttribute) delivered at Model.
+        redirectAttributes.addAttribute("itemId", item.getId());
+        redirectAttributes.addAttribute("status", true);
 //        return "basic/item";
         return "redirect:/basic/items/" + item.getId(); //redirect url, not return form(html)
     }

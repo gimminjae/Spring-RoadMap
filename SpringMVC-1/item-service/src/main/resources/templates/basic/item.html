@@ -13,6 +13,8 @@
     <div class="py-5 text-center">
         <h2>Item Detail</h2></div>
     <div>
+        <!-- add -->
+        <h2 th:if="${param.status}" th:text="'saved!'"></h2>
         <label for="itemId">ID</label>
         <input type="text" id="itemId" name="itemId" class="form-control"
                value="1" th:value="${item.id}" readonly>
