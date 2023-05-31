@@ -5,7 +5,7 @@
 주된 내용은 인프런에 있는 김영한님의 스프링 백엔드 개발자 로드맵 강의 입니다.
 
 
-This is a flag store that summarizes the lessons I've learned or taken about Spring.
+This is a git repository that summarizes the lessons I've learned or taken about Spring.
 
 The main content is Kim Young-han's spring backend developer roadmap lecture in Infron.
 
