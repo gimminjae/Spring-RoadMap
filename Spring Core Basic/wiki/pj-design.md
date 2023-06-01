@@ -11,6 +11,7 @@
 - Discount Policy can be changed at a high probability.
 ### Advise
 We can't wait for the Member Data and Discount Policy to be decided.
+
 We will design to change Implement Object at any time.
 
 # Member Domain Design
