@@ -50,13 +50,11 @@ The core of object orientation is polymorphism.
 - You can change an object instance implementing the interface flexibly at the time of execution.
 - Without change of client, You can change Implementation capabilities of the server flexibly.
 - Separation of roles and implementation
-- Ex)
+- Ex) Driver and Car
 
-    Driver and Car
-
-    The driver can drive regardless of the type of car. 
-
-    image
+    The driver can drive regardless of the type of car.
+    
+    <img width="562" alt="스크린샷 2023-05-30 오후 9 48 22" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/deb8105f-ef47-4981-8f69-dfd2de6b9a3d">
 
 ## Separation of roles(interface) and implementation(implemented Object)
 - The client only needs to know the role (interface) of the target.
@@ -69,7 +67,7 @@ The core of object orientation is polymorphism.
 
 Like the picture below, although MemberService don't know internal structure of MemberRepository, MemberService can use method 'save()' of MemberRepository.
 
-image
+<img width="508" alt="스크린샷 2023-05-30 오후 9 07 49" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/2f1bd2b5-2fbf-4229-8bba-f5563066812f">
 
 ## SOLID - 5 Principle for Great Object-oriented Design
 
