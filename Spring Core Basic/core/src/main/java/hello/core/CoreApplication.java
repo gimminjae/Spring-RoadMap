@@ -11,3 +11,8 @@ public class CoreApplication {
 	}
 
 }
+/**
+ * ----------Business Requirements And Architecture----------
+ * - Member
+ * 
+ */
