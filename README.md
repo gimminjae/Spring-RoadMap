@@ -9,7 +9,7 @@ This is a git repository that summarizes the lessons I've learned or taken about
 
 The main content is Kim Young-han's spring backend developer roadmap lecture in Infron.
 
-### 모든 내용이 영어인 이유
+### 영어로 기록한 이유
 어떤 분야의 개발자이든지, 영어는 개발자와 나누어 질 수 없는 불가분의 관계라고 생각합니다.
 
 그리고 저는 또한 개발자로써 해외(독일, 미국 등) 취업을 목표로 하고 있기에 영어로 모든 내용을 작성하였습니다.
@@ -17,7 +17,7 @@ The main content is Kim Young-han's spring backend developer roadmap lecture in 
 이 내용들을 보시는 모든 분들께서는 그 점을 알아주시고 봐주시길 바라며, 영어의 문법이나 표현에 부족한 점이 있을 수 있으니 부족한 점이 보인다면 바로 지적해주시고 알려주시면 감사하겠습니다.
 
 
-### Why everything is in English
+### Why I recorded it in English
 I think that English is inseparable from developers in any field.
 
 And I also wrote everything in English because I am aiming to get a job abroad (Germany, the United States, etc.) as a developer.
