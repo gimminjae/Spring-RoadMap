@@ -23,3 +23,6 @@ We will design to change Implement Object at any time.
 
 ### Member Object Diagram
 <img width="651" alt="스크린샷 2023-06-02 오전 6 37 53" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/3b23d15e-5dac-4fb4-a4fe-571862311132">
+
+# Order Domain Design
+### Total
