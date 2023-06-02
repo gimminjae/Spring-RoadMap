@@ -38,6 +38,6 @@ public class Order {
     }
     @Override
     public String toString() {
-        return "Order{\nmemberId=%d,\nitemName=%s,\nitemPrice=%d,\ndiscountPrice=%d\n}".formatted(memberId, itemName, itemPrice, discountPrice)
+        return "Order{\nmemberId=%d,\nitemName=%s,\nitemPrice=%d,\ndiscountPrice=%d\n}".formatted(memberId, itemName, itemPrice, discountPrice);
     }
 }
