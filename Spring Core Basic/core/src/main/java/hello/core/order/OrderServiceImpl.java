@@ -1,16 +1,19 @@
 package hello.core.order;
 
 import hello.core.discount.DiscountPolicy;
-import hello.core.discount.FixDiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
-import hello.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService {
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+    private final DiscountPolicy discountPolicy;
 
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
     // private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //Fix discount
-    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //Rate discount
+    // private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //Rate discount
     /**
      * When change discount policy, have to modify code of OrderService.
      * We separated role and implementaion.
