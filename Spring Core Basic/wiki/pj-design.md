@@ -27,3 +27,6 @@ We will design to change Implement Object at any time.
 # Order Domain Design
 ### Total
 <img width="785" alt="스크린샷 2023-06-02 오후 5 33 06" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/3b142b36-742c-46de-bda3-4b1ffd699f21">
+
+# Total Logic
+<img width="777" alt="스크린샷 2023-06-04 오전 7 25 06" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/e620c035-8f76-44e0-a5e9-6de23719dec6">
