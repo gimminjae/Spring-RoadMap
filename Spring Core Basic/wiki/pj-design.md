@@ -30,3 +30,6 @@ We will design to change Implement Object at any time.
 
 # Total Logic
 <img width="777" alt="스크린샷 2023-06-04 오전 7 25 06" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/e620c035-8f76-44e0-a5e9-6de23719dec6">
+
+# AppConfig post-deployment structure
+<img width="695" alt="스크린샷 2023-06-07 오전 6 52 09" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/2d0fa105-1922-41eb-8974-03c98892f13d">
