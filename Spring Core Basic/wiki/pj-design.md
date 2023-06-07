@@ -33,3 +33,36 @@ We will design to change Implement Object at any time.
 
 # AppConfig post-deployment structure
 <img width="695" alt="스크린샷 2023-06-07 오전 6 52 09" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/2d0fa105-1922-41eb-8974-03c98892f13d">
+In this process, three of the five principles of good object-oriented design were applied.
+
+- SRP
+
+     - Client objects are only responsible for executing.
+     - AppConfig is responsible for creating and linking implementation objects.
+- OCP
+    - You only need to modify the code of AppConfig when changing the dependencies between objects or expanding the function.
+- DIP
+    - We make client code depend on interface and AppConfig inject implemented object to client code.
+
+
+# IoC(Inversion of Control)
+Previously, client implementation objects created, connected, and executed necessary implementation objects on their own.
+
+After the appearance of AppConfig, the implementation object only plays the role of executing its own logic, and the control flow of the program is now the role of AppConfig.
+
+AppConfig will have all the rights to the control flow for the program.
+
+In this way, managing the control flow of the program externally is called IoC (Inversion of Control).
+
+# DI(Dependency Injection)
+Dependencies should be considered by dividing static dependencies and dynamic dependencies.
+
+- static dependency
+
+    For example, OrderServiceImpl depends on the MemberRepository, DiscountPolicy interface.
+
+    It is not known what objects will actually be implemented.
+
+- dynamic dependencies
+
+    At the application runtime, the actual implementation object is created externally and delivered to the client, and the actual dependence of the client and the server is connected is called dependency injection.
