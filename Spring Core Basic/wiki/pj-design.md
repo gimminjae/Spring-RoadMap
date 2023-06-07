@@ -66,3 +66,10 @@ Dependencies should be considered by dividing static dependencies and dynamic de
 - dynamic dependencies
 
     At the application runtime, the actual implementation object is created externally and delivered to the client, and the actual dependence of the client and the server is connected is called dependency injection.
+
+# Spring Container
+ApplicationContext is called Spring Container
+
+Previously, developers used AppConfig to create objects and inject dependency themselves, but spring containers replace them.
+
+The spring container recognizes class with @Configuration as configuration information and registers the return object of the methods with @Bean in it as spring bean in the spring container. At this time, the name of the bean becomes the method name.
