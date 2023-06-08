@@ -33,7 +33,7 @@ public class ApplicationContextSameBeanFindTest {
     }
 
     @Test
-    @DisplayName("select all bean of specified type")
+    @DisplayName("select all bean of specific type")
     void findAllBeanByType() {
         Map<String, MemberRepository> beansOfType = ac.getBeansOfType(MemberRepository.class);
         for (String key : beansOfType.keySet()) {
