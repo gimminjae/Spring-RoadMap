@@ -16,3 +16,13 @@
     - EnvironmentCapable
     - ApplicationEventPublisher
     - ResourceRoader
+
+## Various Configuration Formats - Class, XML
+image
+
+- Java Class Configuration based on Annotaion
+
+    The way we've been doing it
+- XML
+
+    It has not been used very well lately.
