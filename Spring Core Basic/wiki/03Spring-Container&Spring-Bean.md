@@ -18,7 +18,7 @@
     - ResourceRoader
 
 ## Various Configuration Formats - Class, XML
-image
+<img width="524" alt="스크린샷 2023-06-12 오후 5 46 31" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/c9187e66-f51d-4f48-b534-1d2ff2675f0c">
 
 - Java Class Configuration based on Annotaion
 
