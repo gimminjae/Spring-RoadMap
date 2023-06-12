@@ -1,6 +1,5 @@
 # BeanFactory & ApplicationContext
-
-image
+<img width="285" alt="스크린샷 2023-06-12 오후 5 39 47" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/73d487d4-5948-4d0d-943c-5d5858dbb50d">
 
 ### BeanFactory
 - It's the top interface of the spring container.
@@ -8,9 +7,9 @@ image
 
 ### ApplicationContext
 - inherits BeanFactory
-- additional function ApplicationContext provide
+- additional function ApplicationContext provides
 
-    image
+    <img width="743" alt="스크린샷 2023-06-12 오후 5 43 10" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/d9a5f787-4775-410d-926f-4734d9d15f5c">
 
     - MessageSource
     - EnvironmentCapable
