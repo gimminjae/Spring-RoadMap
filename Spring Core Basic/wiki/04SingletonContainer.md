@@ -36,7 +36,7 @@
 - Free from DIP, OCP, Test and private constructor.
 
 ### After Spring Singleton Container
-image
+<img width="611" alt="스크린샷 2023-06-13 오후 3 20 10" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/e975a246-b275-4841-a501-cb3f4b6800ef">
 
 ### Problem of Singleton Container
 Singleton objects should not be designed to be stateful because multiple clients share one instance of the same object.
