@@ -26,3 +26,15 @@
 - XML
 
     It has not been used very well lately.
+
+## Spring Bean Configuration Meta Information - BeanDefinition
+- thanks to BeanDefinition, Spring supports various configuration formats.
+- This is dividing role and implementation.
+- BeanDefinition is created by reading the Xml or Java class.
+- Spring Container creates Spring Bean based on this meta information(BeanDefinition)
+
+image
+
+image
+
+- Spring Containers inheriting ApplicationContext and each BeanDefinition Reader generates BeanDefinition through configuration information.
