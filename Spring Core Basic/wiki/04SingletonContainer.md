@@ -28,3 +28,22 @@
 - It's difficult to create child class using private constructor.
 - Eventually, there is less flexibility.
 - It's called as anti pattern too.
+
+## Spring Singleton Container
+- Spring Container manages basically object instance as singleton.
+- Spring Container can keep objects singleton, solving all problems of singleton pattern.
+- Dirty codes for singleton pattern don't have to go in.
+- Free from DIP, OCP, Test and private constructor.
+
+### After Spring Singleton Container
+image
+
+### Problem of Singleton Container
+Singleton objects should not be designed to be stateful because multiple clients share one instance of the same object.
+- There should not be fields that depend on a particular client.
+- There should not be a field that can change the value.
+- It should be possible to read only if possible.
+- Setting a shared value in the Spring Bean's field can cause a really big error!!!
+
+> **Let's always design the spring bean stateless.**
+
