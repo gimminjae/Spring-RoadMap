@@ -47,3 +47,36 @@ Singleton objects should not be designed to be stateful because multiple clients
 
 > **Let's always design the spring bean stateless.**
 
+## @Configuration & Bytecode Manipulation
+- Spring Container calls each @Bean and creates Spring Bean.
+### Q. If looking at AppConfig, shouldn't memberRepository() be called a total of three times as follows?
+1. Spring Container calls memberRepository attached @Bean annotation in order to register it at Spring Bean.
+2. Call of memberRepository at memberService()
+3. Call of memberRepository() at orderService()
+- By the way, if looking at log, Each is called only once.
+
+### CGLIB
+- Since @Configuration was pasted to AppConfig, not only @Beans of AppConfig but also AppConfig itself is registered as Bean.
+```java
+@Test
+  void configurationDeep() {
+    ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+
+    //AppConfig is registered as Bean too.
+    AppConfig bean = ac.getBean(AppConfig.class);
+
+    System.out.println("bean = " + bean.getClass());
+    //print: bean = class hello.core.AppConfig$$EnhancerBySpringCGLIB$$bd479d70
+}
+```
+- In the above test, you can see that CGLIB is attached to AppConfig and some other classes are newly created.
+> This is not a class We created, but a random other class where Spring inherited the AppConfig class using a byte code manipulation library called CGLIB, and registered that other class as Spring Bean!
+
+image
+
+- This other class made by Spring CGLIB ensure singleton.
+- For each method with @Bean, if there is already a spring bean, it returns the existing bean, and if there is no spring bean, the code that generates, registers it as a spring bean, and returns it is dynamically created.
+
+### What happens if you don't apply @Configuration, just @Bean?
+- If don't apply @Configuration, just @Bean, it's registered as Bean, but it don't ensure singleton.
+- Always use @Configuration for spring setup information.
