@@ -72,7 +72,7 @@ Singleton objects should not be designed to be stateful because multiple clients
 - In the above test, you can see that CGLIB is attached to AppConfig and some other classes are newly created.
 > This is not a class We created, but a random other class where Spring inherited the AppConfig class using a byte code manipulation library called CGLIB, and registered that other class as Spring Bean!
 
-image
+<img width="701" alt="스크린샷 2023-06-13 오후 3 22 38" src="https://github.com/gimminjae/Spring-RoadMap/assets/97084128/4a312bbd-00a4-4de7-944e-3218aaddfdb4">
 
 - This other class made by Spring CGLIB ensure singleton.
 - For each method with @Bean, if there is already a spring bean, it returns the existing bean, and if there is no spring bean, the code that generates, registers it as a spring bean, and returns it is dynamically created.
