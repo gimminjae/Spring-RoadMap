@@ -1,5 +1,9 @@
 package hello.core.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MemberServiceImpl implements MemberService {
     /**
      * Now, MemberServiceImpl don't depend on the object implements MemberRepository interface.
@@ -8,6 +12,7 @@ public class MemberServiceImpl implements MemberService {
      */
     private final MemberRepository memberRepository;
 
+    @Autowired //Automatically inject dependency
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
