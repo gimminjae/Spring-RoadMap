@@ -16,6 +16,8 @@ The main content is Kim Young-han's spring backend developer roadmap lecture in 
 
 이 내용들을 보시는 모든 분들께서는 그 점을 알아주시고 봐주시길 바라며, 영어의 문법이나 표현에 부족한 점이 있을 수 있으니 부족한 점이 보인다면 바로 지적해주시고 알려주시면 감사하겠습니다.
 
+Spring MVC1 이후로 기록한 프로젝트들 중에서는 빠른 학습 진도를 위해서 영어로 하지 않은 경우가 있습니다.
+
 
 ### Why I recorded it in English
 I think that English is inseparable from developers in any field.
@@ -23,6 +25,8 @@ I think that English is inseparable from developers in any field.
 And I also wrote everything in English because I am aiming to get a job abroad (Germany, the United States, etc.) as a developer.
 
 Everyone who watches these contents should be aware of and take a look at them, and I would appreciate it if you could point out and let me know if you see any deficiencies in English grammar or expression.
+
+Some of the projects recorded after Spring MVC1 were not in English for rapid learning progress.
 
 ## Spring MVC Part 1
 이 강의는 자바 백엔드 기술의 유래와 기능을 발전단계별로 배우고 스프링 MVC의 내부 구조와 원리를 파악할 수 있도록 구성되어 있습니다.
