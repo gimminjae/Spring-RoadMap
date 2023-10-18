@@ -9,5 +9,20 @@
 - [빈 생명주기 콜백](https://github.com/gimminjae/Spring-RoadMap/blob/master/Spring%20Core%20Basic/wiki/07%EB%B9%88-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%EC%BD%9C%EB%B0%B1.md)
 - [빈 스코프 - Bean Scope](https://github.com/gimminjae/Spring-RoadMap/blob/master/Spring%20Core%20Basic/wiki/08Bean-Scope.md)
 ## Spring MVC 1
-
+- HttpServletRequest
+  - [Theory](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/http/HttpServletRequestTheory.md)
+  - [Usage](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/request/RequestHeaderServlet.java)
+- HttpRequest Data
+  - [Intro](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/http/HttpRequestData.md)
+  - [GET query parameter](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/request/RequestParamServlet.java)
+  - [POST Form](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/webapp/basic/hello-form.html)
+  - [Request data when body is JSON](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/request/RequestBodyJsonServlet.java)
+  - [Request when body is TEXT](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/request/RequestBodyStringServlet.java)
+- HttpServletResponse
+  - [Theory](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/http/HttpServletResponseTheory.md)
+  - [Usage](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/response/ResponseHeaderServlet.java)
+- HttpResponse data
+  - [Intro](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/http/HttpResponseData.md)
+  - [When Response is HTML](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/response/ResponseHtmlServlet.java)
+  - [When Response is JSON](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/response/ResponseJsonServlet.java)
 ## Spring MVC 2
