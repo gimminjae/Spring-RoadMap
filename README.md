@@ -25,4 +25,10 @@
   - [Intro](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/http/HttpResponseData.md)
   - [When Response is HTML](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/response/ResponseHtmlServlet.java)
   - [When Response is JSON](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/servlet/src/main/java/com/servlet/basic/response/ResponseJsonServlet.java)
+- [회원 요구사항 개발](https://github.com/gimminjae/Spring-RoadMap/commit/3f641cdff59861ac3ea0b2b8bd3a0976cd8b1810)
+  - [Servlet](https://github.com/gimminjae/Spring-RoadMap/commit/994ce16a6397d8de1b1518522a1894f5168e722d)
+  - [JSP](https://github.com/gimminjae/Spring-RoadMap/commit/b2c41ddc6eab4ee113089319f7c6573f90c3f631)
+  - [MVC Pattern](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/mvc/MVC%20Pattern%20-%20Intro.md)
+  - [Implement of MVC](https://github.com/gimminjae/Spring-RoadMap/commit/4de9869a40e5791e27f62acc245497704a1c679b)
+  - [Limitation of MVC](https://github.com/gimminjae/Spring-RoadMap/blob/master/SpringMVC-1/wiki/mvc/MVC%20Pattern%20-%20Limitation.md)
 ## Spring MVC 2
