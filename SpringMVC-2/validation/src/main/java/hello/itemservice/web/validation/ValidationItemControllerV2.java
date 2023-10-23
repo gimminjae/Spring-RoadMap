@@ -52,7 +52,7 @@ public class ValidationItemControllerV2 {
      * BindingResult bindingResult 파라미터의 위치는 @ModelAttribute Item item 다음에 와야 한다.
      * BindingResult 는 Model에 자동으로 포함된다.
      */
-    @PostMapping("/add")
+//    @PostMapping("/add")
     public String addItemV1(@ModelAttribute Item item, BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
         //validation
         if (!StringUtils.hasText(item.getItemName())) {
@@ -69,6 +69,51 @@ public class ValidationItemControllerV2 {
             int resultPrice = item.getPrice() * item.getQuantity();
             if (resultPrice < 10000) {
                 bindingResult.addError(new ObjectError("item", "가격 * 수량의 합은 10,000원 이상이어야 합니다. 현재 값 = " + resultPrice));
+            }
+        }
+        //검증 실패시 다시 입력 폼으로
+        if (bindingResult.hasErrors()) {
+            log.info("errors: {}", bindingResult);
+            return "validation/v2/addForm";
+        }
+
+        Item savedItem = itemRepository.save(item);
+        redirectAttributes.addAttribute("itemId", savedItem.getId());
+        redirectAttributes.addAttribute("status", true);
+        return "redirect:/validation/v2/items/{itemId}";
+    }
+
+    /**
+     * addItemV1의 문제점: 값에 문제가 있으면 그 값은 초기화됨.
+     *
+     * ***** FieldError *****
+     * *** FieldError's Parameter ***
+     * objectName : 오류가 발생한 객체 이름
+     * field : 오류 필드
+     * rejectedValue : 사용자가 입력한 값(거절된 값)
+     * bindingFailure : 타입 오류 같은 바인딩 실패인지, 검증 실패인지 구분 값 codes : 메시지 코드
+     * arguments : 메시지에서 사용하는 인자
+     * defaultMessage : 기본 오류 메시지
+     *
+     * 오류 발생시 사용자 입력 값을 저장하는 기능을 제공한다.
+     */
+    @PostMapping("/add")
+    public String addItemV2(@ModelAttribute Item item, BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
+        //validation
+        if (!StringUtils.hasText(item.getItemName())) {
+            bindingResult.addError(new FieldError("item", "itemName", item.getItemName(), false, null, null, "상품이름은 필수 항목입니다."));
+        }
+        if (item.getPrice() == null || item.getPrice() < 1000 || item.getPrice() > 1000000) {
+            bindingResult.addError(new FieldError("item", "price", item.getPrice(), false, null, null, "가격은 1000 ~ 1000000원 입니다."));
+        }
+        if (item.getQuantity() == null || item.getQuantity() >= 9999) {
+            bindingResult.addError(new FieldError("item", "quantity", item.getQuantity(), false, null, null, "수량은 최대 9999개 까지 혀옹됩니다."));
+        }
+        //특정 필드가 아닌 복합적인 rule
+        if (item.getPrice() != null && item.getQuantity() != null) {
+            int resultPrice = item.getPrice() * item.getQuantity();
+            if (resultPrice < 10000) {
+                bindingResult.addError(new ObjectError("item", null, null, "가격 * 수량의 합은 10,000원 이상이어야 합니다. 현재 값 = " + resultPrice));
             }
         }
         //검증 실패시 다시 입력 폼으로
