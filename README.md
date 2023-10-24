@@ -69,6 +69,6 @@
   - 입력 폼 | 체크박스 | 라디오 버튼 | 셀렉트 박스
 - [타임리프 메세지, 국제화 예](https://github.com/gimminjae/Spring-RoadMap/tree/master/SpringMVC-2/message)
 - Validation
-  - [직접 검증과 그 문제점](https://github.com/gimminjae/Spring-RoadMap/commit/2cc52262a8e9cde388473215f938cea1c2ec922b)
-  - [v2:v1 BindingResult](https://github.com/gimminjae/Spring-RoadMap/commit/2cecbc13fddacea4c9b01ec3bf8da1fabcb1ae9f)
-  - [v2:v2 FieldError, ObjectError](https://github.com/gimminjae/Spring-RoadMap/commit/db633bdea32b393a5e7e4cdf006eba7a4deac885)
+  - [v1 직접 검증과 그 문제점](https://github.com/gimminjae/Spring-RoadMap/commit/2cc52262a8e9cde388473215f938cea1c2ec922b)
+  - [v2-1 BindingResult](https://github.com/gimminjae/Spring-RoadMap/commit/2cecbc13fddacea4c9b01ec3bf8da1fabcb1ae9f)
+  - [v2-2 FieldError, ObjectError](https://github.com/gimminjae/Spring-RoadMap/commit/db633bdea32b393a5e7e4cdf006eba7a4deac885)
